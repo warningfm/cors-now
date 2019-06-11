@@ -24,7 +24,7 @@ module.exports = async (req, res) => {
     if (req.url === '/' || req.url === '/favicon.ico') {
         // landing page
         try {
-            const markdownString = await readFile('./readme.md', {
+            const markdownString = await readFile('./index.html', {
                 encoding: 'utf8'
             });
             const content = await marked(markdownString);
