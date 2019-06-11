@@ -1,5 +1,5 @@
 
-# cors-now 
+# CORS proxy 
 
 > reverse proxy with CORS headers.
 
@@ -12,11 +12,11 @@ __Just do a `fetch` on the below:__
 https://cors.now.sh/<url>
 ```
 
-__Example:__
+__Conto:__
 
 ```js
 // The XKCD URL below doesn't allow CORS.
-fetch('https://cors.now.sh/http://xkcd.com/info.0.json')
+fetch('https://cors-nng.herokuapp.com/http://xkcd.com/info.0.json')
 .then(console.log)
 .catch(console.error)
 ```
@@ -29,12 +29,4 @@ P.S: Make sure you give the absolute URL, or else you will see an error like:
 }
 ```
 
-## WHY?
 
-* For reverse proxies.
-
-* For crawlers, spiders and what not! 
-
-## License
-
-MIT © [Hemanth.HM](https://h3manth.com)
