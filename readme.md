@@ -12,7 +12,7 @@ __Just do a `fetch` on the below:__
 https://cors-nng.herokuapp.com/<url>
 ```
 
-__Conto:__
+__Contoh:__
 
 ```js
 // The XKCD URL below doesn't allow CORS.
