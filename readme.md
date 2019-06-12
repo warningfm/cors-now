@@ -16,7 +16,7 @@ __Contoh:__
 
 ```js
 // The XKCD URL below doesn't allow CORS.
-fetch('https://cors-nng.herokuapp.com/http://xkcd.com/info.0.json')
+fetch('https://cors-nng.herokuapp.com/http://live.bintangtenggarafm.com:9560/rbtfm')
 .then(console.log)
 .catch(console.error)
 ```
