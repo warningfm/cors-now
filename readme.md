@@ -1,5 +1,5 @@
 
-# CORS proxy 
+# cors proxy 
 
 > reverse proxy with CORS headers.
 
